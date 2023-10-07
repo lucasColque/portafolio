@@ -6,6 +6,7 @@ import WorkTools from "./components/WorkTools/WorkTools";
 import Educacion from "./components/Educacion/Educacion";
 import Formulario from "./components/Formulario/Formulario";
 import Footer from "./components/Footer/Footer";
+
 const App = () => {
     return (
         <>
@@ -16,6 +17,7 @@ const App = () => {
         <Educacion />
         <Formulario />
         <Footer />
+
         </>
     )
 }

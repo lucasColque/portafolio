@@ -5,9 +5,39 @@ export const data ={
     sobre_mi_icono: "https://i.postimg.cc/t4kKHKCR/0b5ad5cd17435492fdc7b12bbb4cc67e.png",
     proyectos_principales:
     [
-        {nombre: "FunkoShop", descripcion:"Descripcion FunkoShop" , tecnologias:"Api", imagen_1:"https://i.postimg.cc/kX1CZ7Wc/Funko-Shop-1.png", imagen_2:"https://i.postimg.cc/bNN83ZSr/Funko-Shop-2.png", imagen_3: "https://i.postimg.cc/xjPnvvCB/Funko-Shop-3.png", descripcion_imagen: "Tienda FunkoShop"},
-        {nombre: "PokeDex", descripcion:"Descripcion Pokedex" , tecnologias:"Api",  imagen_1:"https://i.postimg.cc/C5p2XQKS/Poke-Dex-1.png", imagen_2:"https://i.postimg.cc/zBgMdr8x/Poke-Dex-2.png", imagen_3: "https://i.postimg.cc/br05h9Gb/Pokedex-3.png", descripcion_imagen: ""},
-        {nombre: "Minimal Home", descripcion: "Descripcion Minimal Home", tecnologias: "Api",  imagen_1:"https://i.postimg.cc/HWtB42MG/Minimal-Home-1.png", imagen_2:"https://i.postimg.cc/hvMsDDn4/Minimal-Home-2.png", imagen_3: "https://i.postimg.cc/Y9Kb8D87/Minimal-Home-3.png", descripcion_imagen: ""}
+        {   
+            nombre: "FunkoShop",
+            descripcion:"Descripcion FunkoShop" , 
+            tecnologias:"Api", 
+            imagenes:[
+                        {id:1,url:"https://i.postimg.cc/kX1CZ7Wc/Funko-Shop-1.png"},
+                        {id:2,url:"https://i.postimg.cc/bNN83ZSr/Funko-Shop-2.png"},
+                        {id:3,url:"https://i.postimg.cc/xjPnvvCB/Funko-Shop-3.png"}
+                    ] ,
+            descripcion_imagen: "Tienda FunkoShop"
+        },
+        {
+            nombre: "PokeDex",
+            descripcion:"Descripcion Pokedex" , 
+            tecnologias:"Api", 
+            imagenes:[
+                        {id:1,url:"https://i.postimg.cc/C5p2XQKS/Poke-Dex-1.png"},
+                        {id:2,url:"https://i.postimg.cc/zBgMdr8x/Poke-Dex-2.png"},
+                        {id:3,url:"https://i.postimg.cc/br05h9Gb/Pokedex-3.png"}
+                    ],
+            descripcion_imagen: ""
+        },
+        {
+            nombre: "Minimal Home", 
+            descripcion: "Descripcion Minimal Home", 
+            tecnologias: "Api",
+            imagenes:[
+                        {id:1,url:"https://i.postimg.cc/HWtB42MG/Minimal-Home-1.png"},
+                        {id:2,url:"https://i.postimg.cc/hvMsDDn4/Minimal-Home-2.png"},
+                        {id:3,url:"https://i.postimg.cc/Y9Kb8D87/Minimal-Home-3.png"}
+                    ], 
+            descripcion_imagen: ""
+        }
     ],
     proyectos_secundarios:
     [
