@@ -1,0 +1,8 @@
+.worktool__article-primarias{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.worktool__article-secundarias{
+display: grid;
+grid-template-columns: repeat(5,1fr);
+}
