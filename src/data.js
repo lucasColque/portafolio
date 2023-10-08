@@ -1,6 +1,6 @@
 
 export const data ={
-    sobre_mi: "Buenas, me llamo Lucas, tengo 22 años y actualmente soy un desarrollador web full stack en Argentina. Al estudiar Ingeniería de Sistemas, obtuve conocimientos tanto de lógica como de programación, lo que me inspiró a profundizar en el desarrollo web. Soy una persona a la que le encantan las series y el anime, viví toda mi vida rodeado de videojuegos y me encanta el vóley como deporte. Una de las cosas que me llevó a formarme como programador fue el mundo IT al estar en constante cambio, nunca dejas de aprender. Mi objetivo es obtener experiencia propia y aprender de la experiencia de los demás. No hay nada mejor que compartir conocimientos con otros compañeros.",
+    sobre_mi: "Buenas, me llamo Lucas, tengo 22 años y actualmente soy un desarrollador web full stack en Argentina. Al estudiar Ingeniería en Sistemas, obtuve conocimientos tanto de lógica como de programación, lo que me inspiró a profundizarme en el desarrollo web. Una de las cosas que me llevó a formarme como programador fue el mundo IT al estar en constante cambio, nunca dejas de aprender. Mi objetivo es obtener experiencia propia y aprender de la experiencia de los demás. No hay nada mejor que compartir conocimientos con otros compañeros.",
     logo: "https://i.postimg.cc/k5tCHgrS/54-548151-one-piece-logo-png-download-luffy-jolly-roger.png",
     sobre_mi_icono: "https://i.postimg.cc/t4kKHKCR/0b5ad5cd17435492fdc7b12bbb4cc67e.png",
     proyectos_principales:
@@ -41,11 +41,12 @@ export const data ={
     ],
     proyectos_secundarios:
     [
-        {nombre:"nombre ejemplo 1", descripcion:"descripcion ejemplo", imagen:""},
-        {nombre:"nombre ejemplo 2", descripcion:"descripcion ejemplo", imagen:""},
-        {nombre:"nombre ejemplo 3", descripcion:"descripcion ejemplo", imagen:""},
-        {nombre:"nombre ejemplo 4", descripcion:"descripcion ejemplo", imagen:""},
-        {nombre:"nombre ejemplo 5", descripcion:"descripcion ejemplo", imagen:""}
+        {nombre:"Buscador de empleados", descripcion:"Tabla de empleados con una barra de navegación. Hecho con React", imagen:"https://i.postimg.cc/Xqjs9V5t/buscador-empleado.png"},
+        {nombre:"Calculadora", descripcion:"Calculadora de Free Code Camp con calculos simples. Hecho con React", imagen:"https://i.postimg.cc/Kzr9KK1n/calculadora.png"},
+        {nombre:"CRUD", descripcion:"CRUD con una API RESTful (MockAPI) de Programador Promedio. Hecho con React", imagen:"https://i.postimg.cc/CM7PSqT0/crud.png"},
+        {nombre:"Formulario", descripcion:"Formulario con Responsive Design y validaciones. Hecho con HTML, CSS y JavaScript", imagen:"https://i.postimg.cc/SRgDrw7R/formulario.png"},
+        {nombre:"Galeria de imágenes", descripcion:"Galeria con indicador de pasos. Hecho con HTML, CSS y JavaScript", imagen:"https://i.postimg.cc/GpvKNBJZ/galeria.png"},
+        {nombre:"Rick & Morty API", descripcion:"SPA construido con la API Rick&Morty. Hecho con JavaScript", imagen:"https://i.postimg.cc/rw0Q1Zdy/rickandmorty.png"},
     ],
     herramientas:[
         {nombre:"HTML" ,icono:"https://i.postimg.cc/Y9Z3byCx/HTML5.png", categoria:"Primaria"},

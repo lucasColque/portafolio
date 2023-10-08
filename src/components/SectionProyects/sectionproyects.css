@@ -45,8 +45,22 @@
     --spacing-12: 1.2rem;
     --spacing-8: 0.8rem;
 }
-.section-proyects{
-    max-width: 1200px;
+.section-proyects__principales{
+    max-width: 1400px;
     width: 100%;
     margin: auto;
+}
+.section-proyects__secundarios{
+    padding-inline: var(--spacing-24);
+    width: 100%;
+    margin:var(--spacing-128) auto;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: var(--spacing-12);
+}
+.section-proyects__title{
+    font-size: var(--font-display);
+    text-align: center;
 }

@@ -48,7 +48,7 @@
     --spacing-8: 0.8rem;
 }
 .aboutme__section{
-
+    padding-block: var(--spacing-128);
 }
 .aboutme__div{
     display: grid;
@@ -56,5 +56,18 @@
 }
 .aboutme__picture{
     display: flex;
-    
+}
+.aboutme__title{
+    font-size: var(--font-display);
+    padding-left: var(--spacing-12);
+}
+.aboutme-div__text{
+    padding: var(--spacing-16);
+}
+.aboutme-picture__img{
+    width: 50%;
+    margin: auto;
+}
+.resaltado{
+    color: red;
 }

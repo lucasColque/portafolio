@@ -73,4 +73,8 @@
     font-size: var(--font-medium);
     color: var(--light-font-solid);
 }
+.material-symbols-outlined{
+    display: flex;
+    align-items: center;
+}
 

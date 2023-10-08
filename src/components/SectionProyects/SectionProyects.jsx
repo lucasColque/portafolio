@@ -5,18 +5,21 @@ import CardProyect from '../CardProyect/CardProyect';
 
 const SectionProyects = () => {
     const proyectos = data.proyectos_principales;
-
     const cardProyects = data.proyectos_secundarios;
+
+    
+
+
     return (
         <>
-            <h2>Proyectos</h2>
-            <section className='section-proyects'>
+            <h2 className='section-proyects__title'>Proyectos</h2>
+            <section className='section-proyects__principales'>
 
                 {
-                    proyectos.map(proyecto => <Proyect key={proyecto.nombre} {...proyecto} />)
+                    proyectos.map((proyecto,index) => <Proyect key={proyecto.nombre} {...proyecto} index={index} />)
                 }
             </section>
-            <section>
+            <section className='section-proyects__secundarios'>
                 {
                     cardProyects.map(card => <CardProyect key={card.nombre} {...card} />)
                 }
