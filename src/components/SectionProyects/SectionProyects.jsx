@@ -1,4 +1,4 @@
-import './SectionProyects.css';
+import './sectionproyects.css';
 import { data } from '../../data';
 import Proyect from '../Proyect/Proyect';
 import CardProyect from '../CardProyect/CardProyect';
