@@ -7,7 +7,7 @@ export const data ={
     [
         {   
             nombre: "FunkoShop",
-            descripcion:"Descripcion FunkoShop" , 
+            descripcion:"E-commerce dirigido a los funkos, sitio construido con React. Proyecto realizado en la capacitación Codo a Codo en grupo trabajado con metodologías agiles (SCRUM)" , 
             tecnologias:"Api", 
             imagenes:[
                         {id:1,url:"https://i.postimg.cc/kX1CZ7Wc/Funko-Shop-1.png"},
@@ -69,7 +69,7 @@ export const data ={
     ],
     estudios:[
         {titulo:"certificado 1", descripcion:"descripcion", imagen:"https://i.postimg.cc/FzmnHd5S/certificado-1.png"},
-        {titulo:"certificado 2", descripcion:"descripcion", imagen:"https://i.postimg.cc/T19NLdf4/certificado-2.png"},
+        {titulo:"certificado 2", descripcion:"descripcion", imagen:"https://i.postimg.cc/GphWFD5W/certificado-2.png"},
         {titulo:"certificado 3", descripcion:"descripcion", imagen:"https://i.postimg.cc/B62V35ys/certificado-3.png"},
         {titulo:"certificado 4", descripcion:"descripcion", imagen:"https://i.postimg.cc/B62V35ys/certificado-3.png"}
     ],

@@ -10,7 +10,7 @@ const WorkTools = () => {
 
     return (
         <section className='worktool__section'>
-            <h2 className='worktool__title-h2'>Herramientas</h2>
+            <h2 className='worktool__title-h2' id='herramientas'>Herramientas</h2>
             <h3 className='worktool__title-h3'>Primarias</h3>
             <article className='worktool__article-primarias'>
                 {

@@ -12,7 +12,7 @@ const SectionProyects = () => {
 
     return (
         <>
-            <h2 className='section-proyects__title'>Proyectos</h2>
+            <h2 className='section-proyects__title' id='proyectos'>Proyectos</h2>
             <section className='section-proyects__principales'>
 
                 {

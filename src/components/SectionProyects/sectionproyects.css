@@ -25,7 +25,7 @@
     --alternative-font: "Raleway", sans-serif;
 
     /*Font-sizes--->Utiliza em*/
-
+    --font-xdisplay: 6.8em;
     --font-display: 4.6em;
     --font-jumbo: 3.8em;
     --font-xlarge: 3em;
@@ -61,6 +61,8 @@
     gap: var(--spacing-12);
 }
 .section-proyects__title{
-    font-size: var(--font-display);
+    font-size: var(--font-xdisplay);
     text-align: center;
+    padding-block: var(--spacing-68);
+    
 }

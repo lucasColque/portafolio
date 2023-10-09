@@ -52,7 +52,39 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
-
 .even{
     order: 2;
+}
+.proyect__container{
+    padding-inline: var(--spacing-36);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.proyect__title{
+    text-align: center;
+    font-size: var(--font-display);
+    padding-bottom: var(--spacing-20);
+}
+.proyect__description{
+    padding-bottom: var(--spacing-12);
+}
+.proyect__button{
+    background-color: #30343f;
+    padding-block: var(--spacing-8);
+    padding-inline: var(--spacing-12);
+    color: var(--light-font-solid);
+}
+.proyect-container__text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.proyect-container__button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-28);
 }

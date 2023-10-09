@@ -5,7 +5,6 @@ const Formulario = () => {
     const descripcion = data.formulario_descripcion;
     return (
         <section className="formulario" id="contacto">
-                    <h2 className="formulario__title">Formulario de contacto</h2>
             <div className="formulario__container">
                 <div className="formulario-text__container">
                     <p className="">{descripcion}</p>

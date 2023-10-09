@@ -52,6 +52,7 @@
     max-width: 1400px;
     width: 100%;
     margin: auto;
+    padding-block: var(--spacing-55);
 }
 .formulario__title{
     text-align: center;

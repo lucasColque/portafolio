@@ -2,7 +2,7 @@ import "./display.css";
 
 const Display = () => {
     return (
-        <section className="main__section">
+        <section className="main__section" id="inicio">
             <div>
                 <h1 className="main__titulo">Lucas Colque</h1>
                 <p className="main__subtitulo">Desarrollador Web Full Stack</p>

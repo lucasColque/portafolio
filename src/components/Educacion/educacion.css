@@ -54,3 +54,8 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
+.educacion__title{
+    font-size: var(--font-display);
+    text-align: center;
+    padding-block: var(--spacing-24);
+}
