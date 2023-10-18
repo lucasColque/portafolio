@@ -1,7 +1,7 @@
 import CarouselP from '../CarouselP/CarouselP';
 import './proyect.css';
 
-const Proyect = ({ nombre, descripcion, tecnologias, imagenes, descripcion_imagen, index }) => {
+const Proyect = ({ nombre, descripcion, tecnologias, imagenes, descripcion_imagen, index, link_demo, link_github }) => {
     console.log(descripcion);
     return (
         <section className='proyect__section'>
@@ -14,8 +14,8 @@ const Proyect = ({ nombre, descripcion, tecnologias, imagenes, descripcion_image
                             descripcion.map(parrafo => <p className='proyect__parrafo'>{parrafo}</p>)
                         }
                         <div className='proyect-container__button'>
-                            <a href="#" className='proyect__button'>Demo</a>
-                            <a href="#" className='proyect__button'>GitHub</a>
+                            <a href={link_demo} target='_blank' className='proyect__button'>Demo</a>
+                            <a href={link_github} target='_blank' className='proyect__button'>GitHub</a>
                         </div>
                     </div>
                 </div>

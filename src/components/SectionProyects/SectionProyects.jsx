@@ -7,9 +7,6 @@ const SectionProyects = () => {
     const proyectos = data.proyectos_principales;
     const cardProyects = data.proyectos_secundarios;
 
-    
-
-
     return (
         <>
             <h2 className='section-proyects__title' id='proyectos'>Proyectos</h2>

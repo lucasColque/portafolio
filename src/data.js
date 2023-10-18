@@ -14,7 +14,8 @@ export const data ={
                         {id:2,url:"https://i.postimg.cc/bNN83ZSr/Funko-Shop-2.png"},
                         {id:3,url:"https://i.postimg.cc/xjPnvvCB/Funko-Shop-3.png"}
                     ] ,
-            descripcion_imagen: "Tienda FunkoShop"
+            link_demo:"https://e-commerce-funkoshop-react.netlify.app/",
+            link_github:"https://github.com/lucasColque/sitio-funkoshop"
         },
         {
             nombre: "PokeDex",
@@ -25,7 +26,8 @@ export const data ={
                         {id:2,url:"https://i.postimg.cc/zBgMdr8x/Poke-Dex-2.png"},
                         {id:3,url:"https://i.postimg.cc/br05h9Gb/Pokedex-3.png"}
                     ],
-            descripcion_imagen: ""
+            link_demo:"https://pokedex-vite-react.netlify.app/",
+            link_github:"https://github.com/lucasColque/pokedex"
         },
         {
             nombre: "Minimal Home", 
@@ -35,8 +37,9 @@ export const data ={
                         {id:1,url:"https://i.postimg.cc/HWtB42MG/Minimal-Home-1.png"},
                         {id:2,url:"https://i.postimg.cc/hvMsDDn4/Minimal-Home-2.png"},
                         {id:3,url:"https://i.postimg.cc/Y9Kb8D87/Minimal-Home-3.png"}
-                    ], 
-            descripcion_imagen: ""
+                    ],
+            link_demo:"#",
+            link_github:"#"
         }
     ],
     proyectos_secundarios:
