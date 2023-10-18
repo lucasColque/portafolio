@@ -68,10 +68,10 @@ export const data ={
         {nombre:"Vite" ,icono:"https://i.postimg.cc/sgc7xfbW/vite.png", categoria:"Secundaria"}
     ],
     estudios:[
-        {titulo:"certificado 1", descripcion:"descripcion", imagen:"https://i.postimg.cc/FzmnHd5S/certificado-1.png"},
-        {titulo:"certificado 2", descripcion:"descripcion", imagen:"https://i.postimg.cc/GphWFD5W/certificado-2.png"},
-        {titulo:"certificado 3", descripcion:"descripcion", imagen:"https://i.postimg.cc/B62V35ys/certificado-3.png"},
-        {titulo:"certificado 4", descripcion:"descripcion", imagen:"https://i.postimg.cc/B62V35ys/certificado-3.png"}
+        {titulo:"Professional Front End Developer UTN ", descripcion:"descripcion", imagen:"https://i.postimg.cc/FzmnHd5S/certificado-1.png"},
+        {titulo:"Professional Full Stack Developer UTN", descripcion:"descripcion", imagen:"https://i.postimg.cc/GphWFD5W/certificado-2.png"},
+        {titulo:"Professional Full Stack Developer Codo a Codo", descripcion:"descripcion", imagen:"https://i.postimg.cc/B62V35ys/certificado-3.png"},
+        {titulo:"Professional Back End Developer UTN", descripcion:"descripcion", imagen:"https://i.postimg.cc/MpDT8vfn/certificado-4.png"}
     ],
     formulario_descripcion: "¿Está buscando crear su propia página web? Déjeme sus datos de contacto y estaré encantado de comunicarme con usted para discutir y llevar a cabo su proyecto."
 

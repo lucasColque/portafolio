@@ -57,5 +57,19 @@
 .educacion__title{
     font-size: var(--font-display);
     text-align: center;
+    padding-block: var(--spacing-36);
+}
+.educacion__title-certificado{
+    font-size: var(--font-xlarge);
+    text-align: center;
     padding-block: var(--spacing-24);
+}
+.educacion__picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.educacion__img{
+    max-width: 90%;
+    width: 100%;
 }
