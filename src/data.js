@@ -7,7 +7,7 @@ export const data ={
     [
         {   
             nombre: "FunkoShop",
-            descripcion:"E-commerce dirigido a los funkos, sitio construido con React. Proyecto realizado en la capacitación Codo a Codo en grupo trabajado con metodologías agiles (SCRUM)" , 
+            descripcion:["Proyecto de e-commerce de funkos construido con React.", "Realizado como parte de la capacitación Codo a Codo en grupo.", "Utilización de metodologías ágiles, específicamente SCRUM.", "Plataforma en línea para la venta de funkos.", "Visualización de imágenes y descripciones detalladas de los productos.", "Implementación de un carrito de compras y opciones de pago seguras.", "Enfoque en una experiencia de usuario atractiva y fácil de usar.", "Diseño responsivo y animaciones suaves."], 
             tecnologias:"Api", 
             imagenes:[
                         {id:1,url:"https://i.postimg.cc/kX1CZ7Wc/Funko-Shop-1.png"},
@@ -18,7 +18,7 @@ export const data ={
         },
         {
             nombre: "PokeDex",
-            descripcion:"Descripcion Pokedex" , 
+            descripcion:["Sitio web de la Pokédex construido con React.","Permite ver información de todos los pokémones.","Botonera para filtrar y ver los pokémones por tipo.","Miniproyecto personal."] , 
             tecnologias:"Api", 
             imagenes:[
                         {id:1,url:"https://i.postimg.cc/C5p2XQKS/Poke-Dex-1.png"},
@@ -29,7 +29,7 @@ export const data ={
         },
         {
             nombre: "Minimal Home", 
-            descripcion: "Descripcion Minimal Home", 
+            descripcion: ['E-commerce de muebles en general llamado "Minimal Home".', "Trabajado en la diplomatura de centro e-learning.","Desarrollado en grupo utilizando la metodología ágil SCRUM.", "Varias páginas para mostrar los productos y sus detalles.","Implementación de filtros por catálogos para facilitar la búsqueda de productos.", "Inclusión de un buscador para buscar productos específicos."], 
             tecnologias: "Api",
             imagenes:[
                         {id:1,url:"https://i.postimg.cc/HWtB42MG/Minimal-Home-1.png"},

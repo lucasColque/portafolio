@@ -5,7 +5,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './carouselp.css';
 const CarouselP = (props) => {
     const imagenes = props.imagenes;
-    console.log(imagenes);
     return (
         <>
             <Carousel>

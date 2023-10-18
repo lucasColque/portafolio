@@ -44,6 +44,7 @@
     --spacing-16: 1.6rem;
     --spacing-12: 1.2rem;
     --spacing-8: 0.8rem;
+    --spacing-4: 0.4rem;
 }
 .proyect__section{
     margin-block: var(--spacing-68);
@@ -87,4 +88,12 @@
     display: flex;
     justify-content: center;
     gap: var(--spacing-28);
+    margin-top: var(--spacing-12);
+    font-size: var(--font-medium);
+}
+.proyect__parrafo{
+    padding-block: var(--spacing-4);
+}
+.proyect__parrafo::before{
+    content: "• ";
 }
