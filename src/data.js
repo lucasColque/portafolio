@@ -44,12 +44,48 @@ export const data ={
     ],
     proyectos_secundarios:
     [
-        {nombre:"Buscador de empleados", descripcion:"Tabla de empleados con una barra de navegación. Hecho con React", imagen:"https://i.postimg.cc/Xqjs9V5t/buscador-empleado.png"},
-        {nombre:"Calculadora", descripcion:"Calculadora de Free Code Camp con calculos simples. Hecho con React", imagen:"https://i.postimg.cc/Kzr9KK1n/calculadora.png"},
-        {nombre:"CRUD", descripcion:"CRUD con una API RESTful (MockAPI) de Programador Promedio. Hecho con React", imagen:"https://i.postimg.cc/CM7PSqT0/crud.png"},
-        {nombre:"Formulario", descripcion:"Formulario con Responsive Design y validaciones. Hecho con HTML, CSS y JavaScript", imagen:"https://i.postimg.cc/SRgDrw7R/formulario.png"},
-        {nombre:"Galeria de imágenes", descripcion:"Galeria con indicador de pasos. Hecho con HTML, CSS y JavaScript", imagen:"https://i.postimg.cc/GpvKNBJZ/galeria.png"},
-        {nombre:"Rick & Morty API", descripcion:"SPA construido con la API Rick&Morty. Hecho con JavaScript", imagen:"https://i.postimg.cc/rw0Q1Zdy/rickandmorty.png"},
+        {
+            nombre:"Buscador de empleados", 
+            descripcion:"Tabla de empleados con una barra de navegación. Hecho con React", 
+            imagen:"https://i.postimg.cc/Xqjs9V5t/buscador-empleado.png",
+            link_demo:"https://buscar-empleados.netlify.app/",
+            link_github:"https://github.com/lucasColque/buscar-personas"
+        },
+        {
+            nombre:"Calculadora", 
+            descripcion:"Calculadora de Free Code Camp con calculos simples. Hecho con React", 
+            imagen:"https://i.postimg.cc/Kzr9KK1n/calculadora.png",
+            link_demo:"https://calculadora-free-code-camp.netlify.app/",
+            link_github:"https://github.com/lucasColque/calculadora-free-code-camp"
+        },
+        {
+            nombre:"CRUD", 
+            descripcion:"CRUD con una API RESTful (MockAPI) de Programador Promedio. Hecho con React", 
+            imagen:"https://i.postimg.cc/CM7PSqT0/crud.png",
+            link_demo:"https://crud-react-vite.netlify.app/",
+            link_github:"https://github.com/lucasColque/CRUD-React-Vite"
+        },
+        {
+            nombre:"Formulario", 
+            descripcion:"Formulario con Responsive Design y validaciones. Hecho con HTML, CSS y JavaScript", 
+            imagen:"https://i.postimg.cc/SRgDrw7R/formulario.png",
+            link_demo:"https://validacion-formulario-responsive.netlify.app/",
+            link_github:"https://github.com/lucasColque/formulario-validacion"
+        },
+        {
+            nombre:"Galeria de imágenes", 
+            descripcion:"Galeria con indicador de pasos. Hecho con HTML, CSS y JavaScript", 
+            imagen:"https://i.postimg.cc/GpvKNBJZ/galeria.png",
+            link_demo:"https://pasos-galeria-de-imagenes.netlify.app/",
+            link_github:"https://github.com/lucasColque/galeria-imagenes"
+        },
+        {
+            nombre:"Rick & Morty API", 
+            descripcion:"SPA construido con la API Rick&Morty. Hecho con JavaScript", 
+            imagen:"https://i.postimg.cc/rw0Q1Zdy/rickandmorty.png",
+            link_demo:"https://rick-and-morty-spa-js.netlify.app/",
+            link_github:"https://github.com/lucasColque/SPA-JS"
+        },
     ],
     herramientas:[
         {nombre:"HTML" ,icono:"https://i.postimg.cc/Y9Z3byCx/HTML5.png", categoria:"Primaria"},

@@ -49,6 +49,7 @@
     max-width: 1400px;
     width: 100%;
     margin: auto;
+    margin-top: var(--spacing-28);
 }
 .educacion__section{
     display: grid;

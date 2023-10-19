@@ -50,11 +50,13 @@
     padding-inline: var(--spacing-12);
     flex-wrap: wrap;
     gap: 40px;
+    padding-block: var(--spacing-28);
 }
 .worktool__article-secundarias{
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
+    padding-block: var(--spacing-28);
 }
 .worktool__section{
     max-width: 1400px;
@@ -69,4 +71,5 @@
 .worktool__title-h3{
     font-size: var(--font-jumbo);
     text-align: center;
+    padding-block: var(--spacing-36);
 }
