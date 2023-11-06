@@ -104,7 +104,8 @@ export const data ={
         {nombre:"Github" ,icono:"https://i.postimg.cc/cJKtX1gV/gitHub.png", categoria:"Primaria"},
         {nombre:"Sequelize" ,icono:"https://i.postimg.cc/dtG8MjB4/sequelize.png", categoria:"Secundaria"},
         {nombre:"EJS" ,icono:"https://i.postimg.cc/zDsnPcny/EJS.png", categoria:"Secundaria"},
-        {nombre:"Vite" ,icono:"https://i.postimg.cc/sgc7xfbW/vite.png", categoria:"Secundaria"}
+        {nombre:"Vite" ,icono:"https://i.postimg.cc/sgc7xfbW/vite.png", categoria:"Secundaria"},
+        {nombre:"PUG" ,icono:"https://i.postimg.cc/gjg2zsK8/PUG.png", categoria:"Secundaria"}
     ],
     estudios:[
         {titulo:"Professional Front End Developer UTN ", descripcion:"descripcion", imagen:"https://i.postimg.cc/FzmnHd5S/certificado-1.png"},
