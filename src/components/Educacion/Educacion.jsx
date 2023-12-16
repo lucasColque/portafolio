@@ -6,7 +6,7 @@ const Educacion = () => {
     return (
         <section className='educacion-section'>
             <a href="Certificados8.pdf">a</a>
-            <a href="Certificado9">b</a>
+            <a href="Certificado9.pdf">b</a>
             <h2 className='educacion__title' id='educacion'>Educación</h2>
             <section className='educacion__section'>
                 {
