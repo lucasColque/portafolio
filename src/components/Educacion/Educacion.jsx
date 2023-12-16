@@ -5,6 +5,7 @@ const Educacion = () => {
     const certificaciones = data.estudios;
     return (
         <section className='educacion-section'>
+            <a href="Certificados8.pdf">a</a>
             <h2 className='educacion__title' id='educacion'>Educación</h2>
             <section className='educacion__section'>
                 {
